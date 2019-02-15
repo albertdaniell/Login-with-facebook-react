@@ -12,3 +12,25 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.my-facebook-button-class{
+  
+  height: 50px;
+  margin: 20px;
+  border-color: transparent;
+  padding: 10px;
+  background:#5d90d2;
+  color: white;
+  transition: .5s;
+  border-radius: 4px;
+  
+}
+
+.my-facebook-button-class:hover{
+  background: transparent;
+  color: black;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-shadow: 1px 2px 2px #ccc;
+  
+}
+
